@@ -26,7 +26,7 @@ const App = () => {
           content="Degital Agency"
         />
       </Helmet>
-      {/* End React Helmet for SEO */}
+      {/* End React Helmet for SEO   */}
 
       <AnimatedCursor
         innerSize={8}
