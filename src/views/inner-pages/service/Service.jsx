@@ -11,7 +11,7 @@ const Service = () => {
   return (
     <div>
       <Helmet>
-        <title>Moonex - Services</title>
+        <title>FireBaun - Services</title>
       </Helmet>
       {/* End Page SEO Content */}
 
