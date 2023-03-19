@@ -1,4 +1,4 @@
-# Moonex - Portfolio & Agency React Template
+# FireBaun - Degital Agency React
 
 ## Description
 
