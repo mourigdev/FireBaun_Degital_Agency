@@ -14,6 +14,7 @@ import Service from "../views/inner-pages/service/Service";
 import ServiceDetails from "../views/inner-pages/service/ServiceDetails";
 import WebsiteMaintenance from "../views/inner-pages/service/WebsiteMaintenance";
 import MobileApplication from "../views/inner-pages/service/MobileApplication";
+import DegitalMarketing from "../views/inner-pages/service/DegitalMarketing";
 
 // About
 import AboutUs from "../views/inner-pages/about/AboutUs";
@@ -64,6 +65,7 @@ const AllRoutes = () => {
         <Route path="/service-details" element={<ServiceDetails />} />
         <Route path="/WebsiteMaintenance" element={<WebsiteMaintenance />} />
         <Route path="/MobileApplication" element={<MobileApplication />} />
+        <Route path="/DegitalMarketing" element={<DegitalMarketing />} />
 
         {/* About */}
         <Route path="/about-us" element={<AboutUs />} />

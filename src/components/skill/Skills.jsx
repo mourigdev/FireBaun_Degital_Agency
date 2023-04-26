@@ -10,10 +10,10 @@ const skillContent = [
   { logo: "image-7", title: "Zeplin", delayAnimation: "100" },
 ];
 
-const Skills = () => {
+const Skills = (props) => {
   return (
     <>
-      {skillContent.map((item, i) => (
+      {props.logo.map((item, i) => (
         <div
           className="ptf-animated-block"
           data-aos="fade"
@@ -25,12 +25,12 @@ const Skills = () => {
             <div className="ptf-skill-box__content">
               <div className="ptf-skill-box__image">
                 <img
-                  src={`assets/img/root/skills/${item.logo}.png`}
+                  src={`assets/img/root/skills/${props.logo[i]}`}
                   alt="HTML/CSS"
                   loading="lazy"
                 />
               </div>
-              <h6 className="ptf-skill-box__title">{item.title}</h6>
+              <h6 className="ptf-skill-box__title">{props.title[i]}</h6>
             </div>
           </div>
         </div>

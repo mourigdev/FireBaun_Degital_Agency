@@ -14,7 +14,7 @@ const ServiceDetails = () => {
   return (
     <div>
       <Helmet>
-        <title>Firebaun - Service Details</title>
+        <title>Firebaun - Degital Marketing Service Details</title>
       </Helmet>
       {/* End Page SEO Content */}
 
@@ -38,14 +38,14 @@ const ServiceDetails = () => {
                     data-aos="fade"
                     data-aos-delay="0"
                   >
-                    <h1 className="large-heading">Web Design</h1>
+                    <h1 className="large-heading">Degital Marketing</h1>
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"
                       style={{ "--ptf-xxl": "2.5rem" }}
                     ></div>
                     <p className="fz-18">
-                    At FireBaun Agency, we take website design seriously. We understand that your website is often the first impression customers have of your business. That's why we offer professional and innovative website design services to help your business stand out from the crowd.
+                    At FireBaun Agency, we are passionate about helping our clients achieve exceptional sales conversions and ROI through our comprehensive digital marketing services, we understand that your online presence is critical to the success of your business. That's why we offer comprehensive digital marketing services designed to help you grow your business online. Our team of experts will work closely with you to develop a customized digital marketing strategy that meets your specific business needs.
                     </p>
                   </div>
                   {/* <!--Spacer--> */}
@@ -56,7 +56,7 @@ const ServiceDetails = () => {
                 </div>
                 <div className="col-lg-12">
                   {/* <!--Animated Block--> */}
-                  <ImageGridFour />
+                  <ImageGridFour image="assets/img/DegitalMarketing.jpg" />
                 </div>
               </div>
             </div>
@@ -79,13 +79,14 @@ const ServiceDetails = () => {
                     data-aos-delay="0"
                   >
                     <p className="fz-18">
-                    Our team of experienced designers will work closely with you to understand your business needs and create a website that is not only visually appealing but also functional and user-friendly. From the initial concept to the final product, we strive to ensure that every detail is perfect and that your website is a true representation of your brand.
-                    </p>
+                    We specialize in a range of digital marketing services, including search engine optimization (SEO), social media marketing, email marketing, content marketing, and more. With years of experience and a track record of success, we have the skills and knowledge needed to help your business reach its full potential online.
+
+</p>
                   </div>
                   {/* <!--Spacer--> */}
                   <div
                     className="ptf-spacer"
-                    style={{ "--ptf-xxl": "4.375rem" }}
+                    style={{ "--ptf-xxl": "3rem" }}
                   ></div>
                   {/* <!--Animated Block--> */}
                   <div
@@ -93,22 +94,23 @@ const ServiceDetails = () => {
                     data-aos="fade"
                     data-aos-delay="0"
                   >
-                    <h3>Specialization</h3>
+                    {/* <h3>Specialization</h3> */}
                     {/* <!--Spacer--> */}
-                    <div
+                    {/* <div
                       className="ptf-spacer"
                       style={{ "--ptf-xxl": "1.875rem" }}
-                    ></div>
+                    ></div> */}
                     <p className="fz-18">
-                    We use the latest design tools and techniques to create custom websites that are tailored to your unique business requirements. Whether you're looking for a simple brochure website or a complex e-commerce platform, we've got you covered. Let us help you take your online presence to the next level with our top-notch website design services.
-                    </p>
+                    Our approach to digital marketing is based on data and analytics. We use the latest tools and techniques to analyze your website traffic, social media metrics, and other key performance indicators to determine the most effective marketing strategies for your business. This data-driven approach ensures that we are always optimizing our strategies to achieve the best possible results for your business.
+
+</p>
                   </div>
                   {/* <!--Spacer--> */}
                   <div
                     className="ptf-spacer"
                     style={{ "--ptf-xxl": "3.125rem" }}
                   ></div>
-                  <div
+                  {/* <div
                     className="row"
                     style={{
                       "--bs-gutter-x": "3.75rem",
@@ -116,11 +118,11 @@ const ServiceDetails = () => {
                     }}
                   >
                     <CounterThree />
-                  </div>
+                  </div> */}
                   {/* <!--Spacer--> */}
                   <div
                     className="ptf-spacer"
-                    style={{ "--ptf-xxl": "6.875rem" }}
+                    style={{ "--ptf-xxl": "5rem" }}
                   ></div>
                   {/* <!--Animated Block--> */}
                   <div
@@ -136,7 +138,20 @@ const ServiceDetails = () => {
                     style={{ "--ptf-xxl": "3.75rem" }}
                   ></div>
                   <div className="ptf-skill-box-grid">
-                    <Skills />
+                    <Skills logo={[
+                      "seo.png",
+                      "socialmedia.png",
+                      "image-3.png",
+                      "image-4.png",
+                      "image-5.png",
+                      "image-6.png"]}
+                      title={[
+                        "SEO",
+                        "Media Marketing",
+                        "image-3",
+                        "image-4",
+                        "image-5",
+                        "image-6"]}/>
                   </div>
                   {/* <!--Spacer--> */}
                   <div
@@ -156,9 +171,7 @@ const ServiceDetails = () => {
                       style={{ "--ptf-xxl": "1.875rem" }}
                     ></div>
                     <p className="fz-18">
-                      Encouraging the use of natural systems and processes in
-                      design allows for exposure to nature, and in turn, these
-                      design approaches improve health and wellbeing.
+                    Whether you're a small business just starting out or a large corporation looking to expand your online presence, we can help. Contact us today to learn more about how we can help you grow your business with our digital marketing services.
                     </p>
                   </div>
                   {/* <!--Spacer--> */}

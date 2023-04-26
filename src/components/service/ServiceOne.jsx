@@ -28,7 +28,7 @@ const serviceContent = [
     titlePart1: "DIGITAL",
     titlePart2: "MARKETING",
     descriptions: ` At Bounfire, we are passionate about helping our clients achieve exceptional sales conversions and ROI through our comprehensive digital marketing services`,
-    to:"/service-details"
+    to:"/DegitalMarketing"
   },
   {
     icon: "lnir lnir-layers-alt-1",
