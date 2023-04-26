@@ -132,26 +132,27 @@
 	}
 
 	&:hover {
-		background-color: var(--ptf-accent-1);
-		box-shadow: inset 0 0 0 1px var(--ptf-accent-1);
-
+		// background-color: var(--ptf-accent-1);
+		// box-shadow: inset 0 0 0 1px var(--ptf-color-black);
+		transform: translate(0, -2px) ;
 		.ptf-pricing-table__title,
 		.ptf-pricing-table__price,
 		.ptf-pricing-table__price .period {
-			color: var(--ptf-color-white);
+			// color: var(--ptf-color-black);
 		}
 
 		.ptf-pricing-table__description,
 		.ptf-pricing-table__content ul li {
-			color: var(--ptf-color-white);
+			color: var(--ptf-color-black);
 
-			border-color: var(--ptf-color-white);
+			border-color: var(--ptf-color-black);
 		}
 
 		.ptf-btn:not(:hover) {
-			color: var(--ptf-color-black);
+			// color: var(--ptf-accent-3);
 
-			background-color: var(--ptf-color-white);
+			// background-color: var(--ptf-color-white);
+			
 		}
 
 	}

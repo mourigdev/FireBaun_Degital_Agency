@@ -44,7 +44,7 @@ body {
   color: var(--ptf-color-2);
   font-family: var(--ptf-primary-font);
   font-size: px2rem(16px);
-  line-height: 1.625;
+  line-height: 1.8;
   letter-spacing: -0.025em;
 
   background-color: var(--ptf-color-white);
@@ -54,6 +54,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
   }
 }
+
+.whiteBackground{
+  background-color: rgb(255 255 255 / 78%)
+}
+
 
 /* IMAGE
 -------------------------------------------- */
@@ -112,7 +117,7 @@ a {
   }
 
   &:hover {
-    color: var(--ptf-accent-1);
+    color: var(--ptf-color-black);
 
     .ptf-is--home-dark & {
       color: var(--ptf-color-white);

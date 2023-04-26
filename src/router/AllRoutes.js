@@ -12,6 +12,8 @@ import HomeModern from "../views/all-home-version/HomeModern";
 // Service
 import Service from "../views/inner-pages/service/Service";
 import ServiceDetails from "../views/inner-pages/service/ServiceDetails";
+import WebsiteMaintenance from "../views/inner-pages/service/WebsiteMaintenance";
+import MobileApplication from "../views/inner-pages/service/MobileApplication";
 
 // About
 import AboutUs from "../views/inner-pages/about/AboutUs";
@@ -60,6 +62,8 @@ const AllRoutes = () => {
         {/* Service */}
         <Route path="/service" element={<Service />} />
         <Route path="/service-details" element={<ServiceDetails />} />
+        <Route path="/WebsiteMaintenance" element={<WebsiteMaintenance />} />
+        <Route path="/MobileApplication" element={<MobileApplication />} />
 
         {/* About */}
         <Route path="/about-us" element={<AboutUs />} />

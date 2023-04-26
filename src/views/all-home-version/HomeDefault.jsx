@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import Award from "../../components/award/Award";
-import Blog from "../../components/blog/Blog";
+// import Blog from "../../components/blog/Blog";
 import Brand from "../../components/brand/Brand";
 import Counter from "../../components/counter/Counter";
 import CopyRight from "../../components/footer/copyright/CopyRight";
@@ -53,10 +53,10 @@ const HomeDefault = () => {
               ============================================== */}
             <section>
               {/* <!--Spacer--> */}
-              <div
+              {/* <div
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-              ></div>
+              ></div> */}
               <div className="container-xxl">
                 <div className="row">
                   <div className="col-lg-3">
@@ -96,20 +96,20 @@ const HomeDefault = () => {
                 </div>
               </div>
               {/* <!--Spacer--> */}
-              <div
+              {/* <div
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-              ></div>
+              ></div> */}
             </section>
 
             {/*=============================================
                 Start Portfolio Section
               ============================================== */}
-            <section>
+            {/* <section>
               <div className="container-xxl">
                 <div className="row align-items-center">
                   <div className="col-12 col-md-9">
-                    {/* <!--Animated Block--> */}
+                    
                     <div
                       className="ptf-animated-block"
                       data-aos="fade"
@@ -121,12 +121,12 @@ const HomeDefault = () => {
                     </div>
                   </div>
                   <div className="col-12 col-md-3 text-md-end">
-                    {/* <!--Spacer--> */}
+           
                     <div
                       className="ptf-spacer"
                       style={{ "--ptf-md": "1.875rem" }}
                     ></div>
-                    {/* <!--Animated Block--> */}
+           
                     <Link
                       className="
                           ptf-link-with-arrow
@@ -143,40 +143,40 @@ const HomeDefault = () => {
                     </Link>
                   </div>
                 </div>
-                {/* <!--Spacer--> */}
+     
                 <div
                   className="ptf-spacer"
                   style={{ "--ptf-xxl": "6.25rem" }}
                 ></div>
-                {/* <!--Animated Block--> */}
+            
                 <div
                   className="ptf-animated-block"
                   data-aos="fade"
                   data-aos-delay="0"
                 >
-                  {/* <!--Content Slider--> */}
+             
                   <Portfolio />
                 </div>
               </div>
-              {/* <!--Spacer--> */}
+           
               <div
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "9.5rem" }}
               ></div>
-            </section>
+            </section> */}
 
             {/*=============================================
                 Start Our Approach Section
               ============================================== */}
             <section
               className="has-accent-1-background"
-              style={{
-                backgroundImage: `url(${
-                  process.env.PUBLIC_URL + "assets/img/root/service-bubble.png"
-                })`,
-                backgroundRepeat: "no-repeat",
-                backgroundPosition: "100% calc(100% + 120px)",
-              }}
+              // style={{
+              //   backgroundImage: `url(${
+              //     process.env.PUBLIC_URL + "assets/img/root/service-bubble.png"
+              //   })`,
+              //   backgroundRepeat: "no-repeat",
+              //   backgroundPosition: "100% calc(100% + 120px)",
+              // }}
             >
               {/* <!--Spacer--> */}
               <div
@@ -200,10 +200,10 @@ const HomeDefault = () => {
                 <Approach />
               </div>
               {/* <!--Spacer--> */}
-              <div
+              {/* <div
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-              ></div>
+              ></div> */}
             </section>
 
             {/*=============================================
@@ -315,8 +315,8 @@ const HomeDefault = () => {
             {/*=============================================
                 Start Award Section
               ============================================== */}
-            <section>
-              {/* <!--Spacer--> */}
+            {/* <section>
+      
               <div
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "11.875rem", "--ptf-md": "5.9375rem" }}
@@ -324,7 +324,7 @@ const HomeDefault = () => {
               <div className="container-xxl">
                 <div className="row">
                   <div className="col-lg-4">
-                    {/* <!--Animated Block--> */}
+           
                     <div
                       className="ptf-animated-block"
                       data-aos="fade"
@@ -336,7 +336,7 @@ const HomeDefault = () => {
                         Awards
                       </h2>
                     </div>
-                    {/* <!--Spacer--> */}
+               
                     <div
                       className="ptf-spacer"
                       style={{ "--ptf-lg": "3.75rem" }}
@@ -347,19 +347,19 @@ const HomeDefault = () => {
                   </div>
                 </div>
               </div>
-              {/* <!--Spacer--> */}
+          
               <div
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
               ></div>
-            </section>
+            </section> */}
 
-            <section>
+            {/* <section>
               <div className="container-xxl">
-                {/* <!--Divider--> */}
+         
                 <div className="ptf-divider"></div>
               </div>
-            </section>
+            </section> */}
 
 
             {/*=============================================
@@ -407,10 +407,10 @@ const HomeDefault = () => {
             ============================================== */}
             <div>
               {/* <!--Spacer--> */}
-              <div
+              {/* <div
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "8.75rem", "--ptf-md": "4.375rem" }}
-              ></div>
+              ></div> */}
               <div className="container">
                 {/* <!--Animated Block--> */}
                 <div

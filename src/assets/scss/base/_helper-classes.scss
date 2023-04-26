@@ -2,7 +2,7 @@
 -------------------------------------------- */
 
 .has-white-color {
-  color: var(--ptf-color-white);
+  color: var(--ptf-color-black);
 }
 
 .has-black-color {
@@ -12,6 +12,7 @@
 .has-accent-1 {
   color: var(--ptf-accent-1) !important;
 }
+
 
 .has-accent-1-background {
   background-color: var(--ptf-accent-1);
@@ -173,6 +174,7 @@
 
 .fz-24 {
   font-size: px2rem(24px);
+  font-weight:600;
 }
 
 .fz-20 {
@@ -244,3 +246,11 @@
 .spin {
   animation: ptf_spin 10s linear infinite;
 }
+
+
+.blaccolor{
+  color: var(--ptf-color-black) !important;
+}
+
+
+

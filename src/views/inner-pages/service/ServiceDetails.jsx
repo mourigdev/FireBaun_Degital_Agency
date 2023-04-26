@@ -14,7 +14,7 @@ const ServiceDetails = () => {
   return (
     <div>
       <Helmet>
-        <title>Moonex - Service Details</title>
+        <title>Firebaun - Service Details</title>
       </Helmet>
       {/* End Page SEO Content */}
 
@@ -38,19 +38,14 @@ const ServiceDetails = () => {
                     data-aos="fade"
                     data-aos-delay="0"
                   >
-                    <h1 className="large-heading">UI/UX Solution</h1>
+                    <h1 className="large-heading">Web Design</h1>
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"
                       style={{ "--ptf-xxl": "2.5rem" }}
                     ></div>
                     <p className="fz-18">
-                      Our skilled and creative UX/UI development team has over
-                      10 years of proven experience in web application
-                      development. We definitely know how end-users interact
-                      with apps and how to create an easy-to-use user interface
-                      that offers an enjoyable experience for your target
-                      audience.
+                    At FireBaun Agency, we take website design seriously. We understand that your website is often the first impression customers have of your business. That's why we offer professional and innovative website design services to help your business stand out from the crowd.
                     </p>
                   </div>
                   {/* <!--Spacer--> */}
@@ -61,7 +56,7 @@ const ServiceDetails = () => {
                 </div>
                 <div className="col-lg-12">
                   {/* <!--Animated Block--> */}
-                  <ImageGridFour />
+                  <ImageGridFour image="assets/img/service-detail.png" />
                 </div>
               </div>
             </div>
@@ -84,13 +79,7 @@ const ServiceDetails = () => {
                     data-aos-delay="0"
                   >
                     <p className="fz-18">
-                      Encouraging the use of natural systems and processes in
-                      design allows for exposure to nature, and in turn, these
-                      design approaches improve health and wellbeing. There are
-                      a number of possible benefits, including reduced heart
-                      rate variability and pulse rates, decreased blood
-                      pressure, and increased activity in our nervous systems,
-                      to name a few.
+                    Our team of experienced designers will work closely with you to understand your business needs and create a website that is not only visually appealing but also functional and user-friendly. From the initial concept to the final product, we strive to ensure that every detail is perfect and that your website is a true representation of your brand.
                     </p>
                   </div>
                   {/* <!--Spacer--> */}
@@ -111,9 +100,7 @@ const ServiceDetails = () => {
                       style={{ "--ptf-xxl": "1.875rem" }}
                     ></div>
                     <p className="fz-18">
-                      Encouraging the use of natural systems and processes in
-                      design allows for exposure to nature, and in turn, these
-                      design approaches improve health and wellbeing.
+                    We use the latest design tools and techniques to create custom websites that are tailored to your unique business requirements. Whether you're looking for a simple brochure website or a complex e-commerce platform, we've got you covered. Let us help you take your online presence to the next level with our top-notch website design services.
                     </p>
                   </div>
                   {/* <!--Spacer--> */}

@@ -2,7 +2,7 @@ import React from "react";
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
 
-const ImageGridFour = () => {
+const ImageGridFour = (props) => {
   return (
     <>
       <SimpleReactLightbox>
@@ -15,12 +15,12 @@ const ImageGridFour = () => {
             {/* <!--Simple Image--> */}
             <div className="ptf-simple-image">
               <a
-                href="assets/img/service-detail.png"
+                href= {props.image}
                 data-fancybox
                 rel="nofollow"
               >
                 <img
-                  src="assets/img/service-detail.png"
+                  src={props.image}
                   alt=""
                   loading="lazy"
                 />

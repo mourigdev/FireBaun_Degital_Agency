@@ -4,40 +4,41 @@ const approachContent = [
   {
     subTitle: "ONE",
     title: "Research",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipiscing elit cras tempus. Libero ligula, vitae accumsan tortor varius nec. Ut luctus maximus dolor. Nunc sed diam sit amet urna fermentum accumsan vitae vitae diam.`,
+    descriptions: `We begin by conducting thorough research to gain a deep understanding of your business, your target audience, and your industry. Our team uses various research methods to gather insights that will inform our approach, including market research, competitor analysis, and user testing.`,
     delayAnimation: "0",
   },
 
   {
     subTitle: "TWO",
     title: "Concept",
-    descriptions: `Donec venenatis consequat libero, quis auctor nunc volutpat quis. Proin at ipsum id magna dapibus dictum eget lobortis magna. Fusce et ligula non tellus vulputate condimentum.`,
+    descriptions: `Based on our research findings, we develop creative concepts that align with your business goals and resonate with your target audience. Our team works closely with you to refine these concepts until we arrive at a strategy that will guide our work moving forward.`,
     delayAnimation: "100",
   },
   {
     subTitle: "THREE",
     title: "Strategy",
-    descriptions: `Consectetur adipiscing elit cras tempus. Libero ligula, vitae accumsan tortor varius nec. Ut luctus maximus dolor. Nunc sed diam sit amet urna fermentum accumsan vitae vitae diam.`,
+    descriptions: `With our creative concept in place, we develop a comprehensive strategy that outlines the tactics we'll use to achieve your business goals. Our team considers a range of factors when developing your strategy, including budget, timeline, and available resources.`,
     delayAnimation: "200",
   },
   {
     subTitle: "FOUR",
     title: "Development",
-    descriptions: `Vivamus vel sollicitudin sem, id sagittis justo. Nam non magna eleifend, tempus nisl quis, commod diam. Morbi gravida ut nulla non porttitor. Suspendis eget arcu eu ex dignissim faucibus. Nullam et luctus tortor.`,
+    descriptions: `With our strategy in place, our team gets to work on bringing your project to life. Whether we're developing a website, creating marketing materials, or building a custom software solution, we approach each project with the same level of care and attention to detail.`,
     delayAnimation: "300",
   },
   {
     subTitle: "FIVE",
     title: "Test",
-    descriptions: `Suspendisse vel magna vitae nunc consequat eleifend. Aenean iaculis Nam non magna eleifend est eget turpis lacinia egest dictum ipsum sollicitudin.Suspendis eget arcu eu ex dignissim faucibus.`,
+    descriptions: `Before launching your project, we conduct thorough testing to ensure everything is functioning as it should. Our team tests for a range of factors, including functionality, usability, and performance, to ensure your project is ready for prime time.`,
     delayAnimation: "400",
   },
   {
     subTitle: "SIX",
     title: "Hand Over",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipiscing elit cras tempus. Libero ligula, vitae accumsan tortor varius nec. Ut luctus maximus dolor. Nunc sed diam sit amet urna fermentum accumsan vitae vitae diam.`,
+    descriptions: `Once your project is complete and has passed our rigorous testing, we hand it over to you for final review. Our team is on hand to provide any necessary support and ensure a smooth transition, so you can start seeing the results of your investment.`,
     delayAnimation: "500",
   },
+
 ];
 
 const Approach = () => {

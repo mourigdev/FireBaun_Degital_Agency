@@ -5,12 +5,11 @@ const heroContent = {
   title: "FireBaun",
   subTitle1: " Crafting Digital",
   subTitle2: "Agency",
-  subTitleDescription1: "Good design mean that",
+  subTitleDescription1: "Good design mean",
   subTitleDescription2: "good business",
   detailsDescription: `We help our client suceed by creating identities, digital
     experiences, and printmaterials that communicate clearly,
-    achieve marketing goals & look fantastic Lorem uispum dolor
-    sit amert tunoer poea opefse ceefo goipully.`,
+    achieve marketing goals & look fantastic.`,
 };
 
 const HeroDefault = () => {
@@ -96,7 +95,7 @@ const HeroDefault = () => {
                     "--ptf-md": "2.1875rem",
                   }}
                 ></div>
-                <p className="fz-24 has-black-color">
+                <p className="fz-24 has-black-color whiteBackground">
                   {heroContent.detailsDescription}
                 </p>
               </div>
@@ -116,12 +115,12 @@ const HeroDefault = () => {
               >
                 {/* <!--Button--> */}
                 <Link
-                  to="/about-us"
+                  to="/contact"
                   className="ptf-btn ptf-btn--primary ptf-btn--inversed"
-                  href="about-us.html"
+                  href="contact.html"
                   target="_self"
                 >
-                  Learn More
+                  Hire Us
                 </Link>
               </div>
             </div>

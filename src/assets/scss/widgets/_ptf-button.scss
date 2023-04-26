@@ -52,21 +52,21 @@
 .ptf-btn.ptf-btn--primary {
 	color: var(--ptf-color-white);
 
-	background-color: var(--ptf-accent-1);
+	background-color: var(--ptf-color-black);
 
 	&:hover {
 		color: var(--ptf-color-white);
 
-		background-color: var(--ptf-accent-2);
+		background-color: var(--ptf-color-black);
 	}
 
 	&.ptf-btn--inversed {
 		color: var(--ptf-color-white);
 
-		background-color: var(--ptf-accent-2);
+		background-color: var(--ptf-color-black);
 
 		&:hover {
-			color: var(--ptf-color-white);
+			color: rgb(178, 173, 192);
 
 			background-color: var(--ptf-color-black);
 		}

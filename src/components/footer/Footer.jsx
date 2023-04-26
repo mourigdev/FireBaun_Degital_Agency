@@ -61,12 +61,12 @@ const Footer = () => {
           </div>
 
           <div className="ptf-footer-heading has-black-color">
-            Start by
+            Start by &nbsp;
             <Link
-              className="has-accent-1 text-decoration-underline"
+              className="has-accent-1 text-decoration-underline blaccolor"
               to="/contact"
             >
-              Saying Hi!
+               Saying Hi!
             </Link>
           </div>
 
